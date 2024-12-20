@@ -5,6 +5,12 @@
 
 **Dự án Nhận Diện & Phân Loại Mụn** sử dụng mô hình YOLOv8 kết hợp với mô hình phân loại đã được huấn luyện để phát hiện và phân loại các loại mụn trên khuôn mặt từ hình ảnh. Người dùng có thể tải lên hình ảnh từ máy tính hoặc sử dụng webcam để chụp hình trực tiếp. Hệ thống sẽ tự động phát hiện các vùng mụn, phân loại loại mụn và hiển thị kết quả chi tiết cùng với đánh giá tình trạng da và khuyến nghị chăm sóc.
 
+## Demo
+
+![Ảnh chụp giao diện ứng dụng](image.png)
+
+[Demo Huggingface](https://huggingface.co/spaces/ducdatit2002/acne-detection-classification).
+
 ## Tính Năng
 
 - **Phát hiện mụn**: Sử dụng YOLOv8 để xác định vị trí các vùng mụn trên khuôn mặt.
