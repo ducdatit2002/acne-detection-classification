@@ -1,0 +1,6 @@
+gradio==5.0.0
+torch
+ultralyticsplus==0.1.0
+ultralytics 
+pillow  
+tensorflow
