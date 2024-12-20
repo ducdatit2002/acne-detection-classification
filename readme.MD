@@ -65,8 +65,6 @@ acne-detection-classification/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── images/
-│   └── acne_detection_banner.png
 └── .gradio/
 ```
 
