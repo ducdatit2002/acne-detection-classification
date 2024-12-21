@@ -14,7 +14,9 @@
 ## Tính Năng
 
 - **Phát hiện mụn**: Sử dụng YOLOv8 để xác định vị trí các vùng mụn trên khuôn mặt.
-- **Phân loại mụn**: Sử dụng mô hình phân loại (classification.h5) để xác định loại mụn cụ thể như Mụn trứng cá, Mụn cám, Mụn sẩn, và Mụn mủ.
+- **Phân loại mụn**: 
++ Version 1: Sử dụng mô hình phân loại (classification.h5) để xác định loại mụn cụ thể như Mụn trứng cá, Mụn cám, Mụn sẩn, và Mụn mủ.
++ Version 2: Sử dụng mô hình ResNet18 đã được huấn luyện để phân loại từng vùng mụn thành 12 loại khác nhau bao gồm: acne_scars, blackhead, cystic, flat_wart, folliculitis, keloid, milium, papular, purulent, sebo-crystan-conglo, syringoma, whitehead
 - **Giao diện thân thiện**: Tải lên hình ảnh hoặc sử dụng webcam để chụp hình trực tiếp.
 - **Hiển thị kết quả chi tiết**: Hiển thị hình ảnh đã được đánh dấu mụn kèm theo bảng kết quả chi tiết về loại mụn, độ tin cậy và đánh giá tình trạng da.
 - **Khuyến nghị chăm sóc**: Cung cấp các khuyến nghị chăm sóc da dựa trên số lượng và loại mụn được phát hiện.
