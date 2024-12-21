@@ -149,7 +149,7 @@ description_md = """
 ## Ứng Dụng Nhận Diện và Phân Loại Mụn Bằng YOLO và ResNet18
 
 1. **Phát hiện mụn:** Sử dụng mô hình YOLO để phát hiện các vùng mụn trên khuôn mặt.
-2. **Phân loại mụn:** Sử dụng mô hình ResNet18 đã được huấn luyện để phân loại từng vùng mụn thành 12 loại khác nhau.
+2. **Phân loại mụn:** Sử dụng mô hình ResNet18 đã được huấn luyện để phân loại từng vùng mụn thành 12 loại khác nhau bao gồm: acne_scars, blackhead, cystic, flat_wart, folliculitis, keloid, milium, papular, purulent, sebo-crystan-conglo, syringoma, whitehead
 3. **Hiển thị kết quả:** Ảnh sau khi xử lý sẽ hiển thị các bounding boxes, nhãn tiếng Anh và tiếng Việt của loại mụn, cùng với độ chính xác của mỗi phân loại.
 4. **Đánh giá tình trạng da:** Cung cấp đánh giá tổng quát về tình trạng da và khuyến nghị tương ứng dựa trên số lượng mụn được phát hiện.
 """
