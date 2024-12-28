@@ -17,6 +17,8 @@
 - **Phân loại mụn**: 
 + Version 1: Sử dụng mô hình phân loại (classification.h5) để xác định loại mụn cụ thể như Mụn trứng cá, Mụn cám, Mụn sẩn, và Mụn mủ.
 + Version 2: Sử dụng mô hình ResNet18 đã được huấn luyện để phân loại từng vùng mụn thành 12 loại khác nhau bao gồm: acne_scars, blackhead, cystic, flat_wart, folliculitis, keloid, milium, papular, purulent, sebo-crystan-conglo, syringoma, whitehead
++ Version 3: Sử dụng mô hình DenseNet121 đã được huấn luyện để phân loại từng vùng mụn thành 12 loại khác nhau bao gồm: acne_scars, blackhead, cystic, flat_wart, folliculitis, keloid, milium, papular, purulent, sebo-crystan-conglo, syringoma, whitehead (Final Val Loss: 1.1653, Val Acc: 0.7702, Val F1: 0.774)
+
 - **Giao diện thân thiện**: Tải lên hình ảnh hoặc sử dụng webcam để chụp hình trực tiếp.
 - **Hiển thị kết quả chi tiết**: Hiển thị hình ảnh đã được đánh dấu mụn kèm theo bảng kết quả chi tiết về loại mụn, độ tin cậy và đánh giá tình trạng da.
 - **Khuyến nghị chăm sóc**: Cung cấp các khuyến nghị chăm sóc da dựa trên số lượng và loại mụn được phát hiện.
