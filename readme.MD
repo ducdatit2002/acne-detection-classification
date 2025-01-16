@@ -16,7 +16,7 @@
 - **Phát hiện mụn**: Sử dụng YOLOv8 để xác định vị trí các vùng mụn trên khuôn mặt.
 - **Phân loại mụn**: 
 + Version 1: Sử dụng mô hình phân loại (classification.h5) để xác định loại mụn cụ thể như Mụn trứng cá, Mụn cám, Mụn sẩn, và Mụn mủ.
-+ Version 2: Sử dụng mô hình ResNet18 đã được huấn luyện để phân loại từng vùng mụn thành 12 loại khác nhau bao gồm: acne_scars, blackhead, cystic, flat_wart, folliculitis, keloid, milium, papular, purulent, sebo-crystan-conglo, syringoma, whitehead
++ Version 2: Sử dụng mô hình ResNet18 đã được huấn luyện để phân loại từng vùng mụn thành 12 loại khác nhau bao gồm: acne_scars, blackhead, cystic, flat_wart, folliculitis, keloid, milium, papular, purulent, sebo-crystan-conglo, syringoma, whitehead (Loss: 0.3535, Val Loss: 1.1175, Val Acc: 0.6298)
 + Version 3: Sử dụng mô hình DenseNet121 đã được huấn luyện để phân loại từng vùng mụn thành 12 loại khác nhau bao gồm: acne_scars, blackhead, cystic, flat_wart, folliculitis, keloid, milium, papular, purulent, sebo-crystan-conglo, syringoma, whitehead (Final Val Loss: 1.1653, Val Acc: 0.7702, Val F1: 0.774)
 
 - **Giao diện thân thiện**: Tải lên hình ảnh hoặc sử dụng webcam để chụp hình trực tiếp.
